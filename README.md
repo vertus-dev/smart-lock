@@ -24,7 +24,7 @@
 
 **Vertus OS - Akıllı Tahta Kilidi**, okul ve eğitim kurumlarındaki akıllı tahtaların güvenli kullanımını sağlamak amacıyla geliştirilmiş tam ekran kilitleme uygulamasıdır. Öğretmenlerin ders süreçlerini kontrol altına almasını ve öğrencilerin tahtayı yetkisiz kullanımını engellemeyi hedefler.
 
-### ꩜ Amaç
+### > Amaç
 - Akıllı tahtaların ders dışı kullanımını engellemek
 - Zaman tabanlı güvenlik sistemi ile kontrollü erişim sağlamak
 - Eğitimci dostu arayüz sunmak
@@ -32,25 +32,25 @@
 
 ## ꩜ Özellikler
 
-### ꩜ Güvenlik Özellikleri
+### > Güvenlik Özellikleri
 - **Zaman Tabanlı Şifre Sistemi**: Dakikada bir değişen 6 haneli güvenlik kodu
 - **Tam Ekran Kilitleme**: Tüm sistemi bloke eden fullscreen arayüz
 - **Kısayol Engelleme**: Alt+Tab, Win+D, Ctrl+Alt+Del gibi kısayolların engellenmesi
 - **Otomatik Kilitleme**: Teneffüs ve öğle aralarında otomatik kilitlenme
 
-### ꩜ Arayüz Özellikleri
+### > Arayüz Özellikleri
 - **Modern Glassmorphism Tasarım**: Şeffaf ve modern arayüz
 - **Responsive Tasarım**: Farklı ekran boyutlarına uyum
 - **Gerçek Zamanlı Takip**: Sistem kaynakları izleme (CPU, RAM)
 - **Animasyonlu Butonlar**: Kullanıcı etkileşimli animasyonlar
 
-### ꩜ Entegre Uygulamalar
+### > Entegre Uygulamalar
 - **Microsoft Copilot**: Yapay zeka asistanı
 - **Office 365**: Online ofis uygulamaları
 - **Hesap Makinesi**: Gelişmiş hesap makinesi
 - **EBA**: Eğitim Bilişim Ağı
 
-### ꩜ Sistem Özellikleri
+### > Sistem Özellikleri
 - **Ders Programı Entegrasyonu**: Otomatik ders zamanlama
 - **Geliştirici Terminali**: Sistem yönetimi için gelişmiş terminal
 - **Çoklu Pencere Yönetimi**: Uygulama pencereleri yönetimi
