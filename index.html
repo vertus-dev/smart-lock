@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vertus Kod Deşifre</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            padding: 20px;
+            background: #1a1a1a;
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .container {
+            background: #2d2d2d;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 350px;
+            margin: 0 auto;
+            border: 2px solid #444;
+        }
+        input {
+            font-size: 32px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            border: 3px solid #666;
+            border-radius: 10px;
+            background: #1a1a1a;
+            color: white;
+            font-family: 'Courier New', monospace;
+            margin: 20px 0;
+        }
+        button {
+            background: #00ff88;
+            color: black;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .result {
+            font-size: 42px;
+            font-weight: bold;
+            color: #00ff88;
+            margin: 25px 0;
+            font-family: 'Courier New', monospace;
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #00ff88;
+        }
+        .info {
+            font-size: 14px;
+            color: #ccc;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔓 Kod Deşifre</h1>
+        
+        <div class="info">Ekrandaki kodu yaz:</div>
+        <input type="text" id="inputCode" placeholder="120592" maxlength="6" 
+               oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+        
+        <br>
+        <button onclick="decryptCode()">DEŞİFRE ET</button>
+        
+        <div class="info">Gerçek kod:</div>
+        <div class="result" id="result">------</div>
+        
+        <div class="info">Bu kodu akıllı tahtaya gir</div>
+    </div>
+
+    <script>
+        function decryptCode() {
+            const inputCode = document.getElementById('inputCode').value;
+            
+            if (inputCode.length !== 6) {
+                alert('6 haneli kod girin!');
+                return;
+            }
+
+            let realCode = "";
+            for (let i = 0; i < inputCode.length; i++) {
+                const digit = parseInt(inputCode[i]);
+                const realDigit = (10 - digit) % 10;
+                realCode += realDigit.toString();
+            }
+
+            document.getElementById('result').textContent = realCode;
+        }
+
+        // Enter tuşu desteği
+        document.getElementById('inputCode').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                decryptCode();
+            }
+        });
+
+        // Sayfa açılınca input'a odaklan
+        document.getElementById('inputCode').focus();
+    </script>
+</body>
+</html>
