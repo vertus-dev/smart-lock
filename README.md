@@ -5,7 +5,7 @@
 ![PyQt6](https://img.shields.io/badge/PyQt6-GUI%20Framework-orange)
 ![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red)
 
-## 📖 İçindekiler
+## ꩜ İçindekiler
 
 - [Proje Hakkında](#-proje-hakkında)
 - [Özellikler](#-özellikler)
@@ -20,43 +20,43 @@
 - [Lisans](#-lisans)
 - [İletişim](#-iletişim)
 
-## 🚀 Proje Hakkında
+## ꩜ Proje Hakkında
 
 **Vertus OS - Akıllı Tahta Kilidi**, okul ve eğitim kurumlarındaki akıllı tahtaların güvenli kullanımını sağlamak amacıyla geliştirilmiş tam ekran kilitleme uygulamasıdır. Öğretmenlerin ders süreçlerini kontrol altına almasını ve öğrencilerin tahtayı yetkisiz kullanımını engellemeyi hedefler.
 
-### 🎯 Amaç
+### ꩜ Amaç
 - Akıllı tahtaların ders dışı kullanımını engellemek
 - Zaman tabanlı güvenlik sistemi ile kontrollü erişim sağlamak
 - Eğitimci dostu arayüz sunmak
 - Otomatik ders programı entegrasyonu ile akıllı kilitleme
 
-## ✨ Özellikler
+## ꩜ Özellikler
 
-### 🔒 Güvenlik Özellikleri
+### ꩜ Güvenlik Özellikleri
 - **Zaman Tabanlı Şifre Sistemi**: Dakikada bir değişen 6 haneli güvenlik kodu
 - **Tam Ekran Kilitleme**: Tüm sistemi bloke eden fullscreen arayüz
 - **Kısayol Engelleme**: Alt+Tab, Win+D, Ctrl+Alt+Del gibi kısayolların engellenmesi
 - **Otomatik Kilitleme**: Teneffüs ve öğle aralarında otomatik kilitlenme
 
-### 🎨 Arayüz Özellikleri
+### ꩜ Arayüz Özellikleri
 - **Modern Glassmorphism Tasarım**: Şeffaf ve modern arayüz
 - **Responsive Tasarım**: Farklı ekran boyutlarına uyum
 - **Gerçek Zamanlı Takip**: Sistem kaynakları izleme (CPU, RAM)
 - **Animasyonlu Butonlar**: Kullanıcı etkileşimli animasyonlar
 
-### 📱 Entegre Uygulamalar
+### ꩜ Entegre Uygulamalar
 - **Microsoft Copilot**: Yapay zeka asistanı
 - **Office 365**: Online ofis uygulamaları
 - **Hesap Makinesi**: Gelişmiş hesap makinesi
 - **EBA**: Eğitim Bilişim Ağı
 
-### ⚙️ Sistem Özellikleri
+### ꩜ Sistem Özellikleri
 - **Ders Programı Entegrasyonu**: Otomatik ders zamanlama
 - **Geliştirici Terminali**: Sistem yönetimi için gelişmiş terminal
 - **Çoklu Pencere Yönetimi**: Uygulama pencereleri yönetimi
 - **Bildirim Sistemi**: Kullanıcı bildirimleri
 
-## 💻 Sistem Gereksinimleri
+## ꩜ Sistem Gereksinimleri
 
 ### Minimum Gereksinimler
 - **İşletim Sistemi**: Windows 10/11, Ubuntu 20.04+, Pardus 21+
@@ -71,7 +71,7 @@
 - **RAM**: 8 GB veya üzeri
 - **İnternet**: Uygulamalar için internet bağlantısı
 
-## 🔧 Kurulum
+## ꩜ Kurulum
 
 ### 1. Gerekli Paketlerin Kurulumu
 
@@ -169,7 +169,7 @@ python3 main.py
 - **Geliştirici Butonu** (🔧): Geliştirici terminalini açar
 - **Kapat Butonu** (⏻): Bilgisayarı kapatır
 
-## 🔐 Güvenlik Sistemi
+## ꩜ Güvenlik Sistemi
 
 ### Kod Üretim Mekanizması
 
@@ -202,11 +202,11 @@ for char in fake_code:
 - **Öğle Arasında**: Otomatik kilitlenme  
 - **Ders Başlangıcı**: Otomatik kontrol
 
-## 🛠️ Geliştirici Özellikleri
+## ꩜ Geliştirici Özellikleri
 
 ### Geliştirici Terminali
 
-Terminali açmak için sağ alt köşedeki **🔧** butonuna tıklayın.
+Terminali açmak için sağ alt köşedeki **>_** butonuna tıklayın.
 
 #### Terminal Komutları
 
@@ -258,7 +258,7 @@ def open_custom_app(self):
     app_window.show()
 ```
 
-## 🏗️ Uygulama Yapısı
+## ꩜ Uygulama Yapısı
 
 ### Ana Sınıflar
 
@@ -309,7 +309,7 @@ def update_schedule_info(self)  # Program bilgisini güncelle
 def update_display_code(self)   # Güvenlik kodunu güncelle
 ```
 
-## ❓ Sıkça Sorulan Sorular
+## ꩜ Sıkça Sorulan Sorular
 
 ### S: Uygulama başlamıyor, ne yapmalıyım?
 **C**: Python ve gerekli kütüphanelerin kurulu olduğundan emin olun. Konsolda `python --version` komutu ile kontrol edin.
@@ -339,7 +339,7 @@ def update_display_code(self)   # Güvenlik kodunu güncelle
 - Kullanıcı adı: `developer`
 - Şifre: `fAd473dC5BbCc+`
 
-## 🤝 Katkıda Bulunma
+## ꩜ Katkıda Bulunma
 
 Vertus OS projesine katkıda bulunmak isterseniz:
 
@@ -352,7 +352,7 @@ Vertus OS projesine katkıda bulunmak isterseniz:
 - Yeni özellikler için testler ekleyin
 - Dokümantasyonu güncelleyin
 
-## 📄 Lisans
+## ꩜ Lisans
 
 Bu proje **telif hakkıyla korunmaktadır**. Tüm hakları saklıdır.
 
@@ -360,7 +360,7 @@ Bu proje **telif hakkıyla korunmaktadır**. Tüm hakları saklıdır.
 
 Bu yazılım, sahibinin açık izni olmadan kopyalanamaz, dağıtılamaz, değiştirilemez veya ticari amaçlarla kullanılamaz.
 
-## 📧 İletişim
+## ꩜ İletişim
 
 **Vertus OS** projesi hakkında bilgi almak, okulunuzda kullanmak veya işbirliği yapmak için:
 
@@ -372,4 +372,4 @@ Bu yazılım, sahibinin açık izni olmadan kopyalanamaz, dağıtılamaz, deği�
 
 **Not**: Bu uygulama eğitim kurumlarında akıllı tahta güvenliği için geliştirilmiştir. Lisans ve kullanım hakları için geliştirici ile iletişime geçin.
 
-**Vertus OS - Eğitimin Güvenli Geleceği** 🎓🔒
+**Vertus OS - Eğitimin Güvenli Geleceği** 
