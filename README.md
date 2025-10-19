@@ -3,7 +3,7 @@
 ![Vertus OS](https://img.shields.io/badge/Vertus%20OS-Smart%20Lock-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![PyQt6](https://img.shields.io/badge/PyQt6-GUI%20Framework-orange)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red)
 
 ## 📖 İçindekiler
 
